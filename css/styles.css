@@ -273,7 +273,7 @@ footer a {
   border-radius: 0 7px 0 0;
   text-transform: uppercase;
   padding: 0 1em;
-  width: 70%;
+  width: 20%;
   position: relative;
   bottom: 1.3em;
   right: 1.1em;
@@ -365,5 +365,33 @@ footer a {
 @media (min-width: 960px) {
   nav a {
     font-size: 1rem;
+  }
+}
+/* Loading indicator */
+.loading {
+  font-style: italic;
+  margin: 1em 0 3em 2em;
+}
+
+.loading-indicator {
+  height: 30px;
+  width: 30px;
+  border-radius: 20%;
+  border: 1px solid grey;
+  border-left: 5px solid #698ebf;
+  border-right: 5px solid #698ebf;
+  border-top: 5px solid lightgrey;
+  border-bottom: 5px solid lightgrey;
+  animation: spin 3s linear infinite;
+  margin-left: 3em;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }

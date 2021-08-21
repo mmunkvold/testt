@@ -18,6 +18,11 @@ p {
   padding: 0 7px;
 }
 
+/* Left Column Home Page */
+.productfromwprestapi {
+  display: grid;
+}
+
 /* Right Column Home Page */
 .recommended {
   background-color: #dddddd;
@@ -73,6 +78,7 @@ h3 {
     flex: 1;
     margin-top: 3em;
   }
+
   .recommended {
     display: block;
   }

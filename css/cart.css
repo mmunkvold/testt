@@ -6,7 +6,8 @@
 }
 
 .product {
-  margin: 20px;
+  width: 75%;
+  margin: 20px auto;
   padding: 20px;
   background: #f8f8f8;
   border-radius: 10px;
@@ -14,15 +15,16 @@
   color: #999;
 }
 
-.product-image {
-  background-size: cover;
-  background-position: top;
-  height: 200px;
-}
+/* .product-image {
+  /* background-size: cover;
+  background-position: top; 
+  width: 55%;
+} */
 
 .product-price {
   font-weight: bold;
   color: #000;
+  text-align: center;
 }
 
 .add-to-cart-btn {
@@ -36,6 +38,8 @@
 #newbutton,
 #usedbutton {
   background: rgb(240, 144, 84);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* =======================

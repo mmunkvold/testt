@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Product Page for Robot War" />
+    <title>Robot War | GameHub</title>
+    <link rel="icon" href="/images/favicon.png" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/forms.css" rel="stylesheet" />
+    <link href="css/productdetails.css" rel="stylesheet" />
+    <link href="css/cart.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ff8ec4a7db.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a class="logo" href="index.html"> <img id="logo" src="icons/logo.png" alt="GameHub Logo" /></a>
+        <form id="search-form" action="search.html" method="GET">
+          <input type="search" placeholder="search site" id="search-input" /><button id="search-btn" type="submit">search</button>
+        </form>
+        <div class="login-signup">
+          <a class="button login-btn" href="login.html">Login </a>
+          <a href="signup.html">Sign up</a>
+        </div>
+      </div>
+      <label id="menu-fa-bars" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <div class="nav-main">
+          <a href="index.html" class="vertical-line">Home</a>
+          <a href="new-games.html" class="vertical-line">New Games</a>
+          <a href="used-games.html" class="vertical-line">Used Games</a>
+          <a href="#" class="vertical-line">Community</a>
+          <a href="contact.html" class="vertical-line">Contact</a>
+          <a href="search.html" class="vertical-line">Search</a>
+        </div>
+        <div class="nav-checkout">
+          <a href="checkout.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="details">
+        <div class="loading-indicator"></div>
+        <div class="loading">Just a second...</div>
+      </div>
+    </main>
+    <footer>
+      <a href="#">faq</a>
+      <a href="#">about GameHub</a>
+      <a href="#">privacy policy</a>
+      <a href="#">terms</a>
+      <a href="#">support</a>
+      <a href="contact.html">contact</a>
+    </footer>
+    <a href="index.html"><p class="copyright">&copy; GameHub 2021</p></a>
+    <script src="js/productdetails.js" type="module"></script>
+    <script src="js/displayError.js"></script>
+  </body>
+</html>

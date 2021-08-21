@@ -1,0 +1,204 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 40px 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+#details-img {
+  width: 80%;
+  padding: 0.5em 0;
+  margin: 1em 0 0;
+}
+
+.details > #newbutton {
+  margin-bottom: 0.5em;
+  width: 50%;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+/* =======================
+     Media Queries 
+==========================*/
+
+@media (min-width: 600px) {
+  .details {
+    flex-direction: row;
+    gap: 0.5em;
+  }
+
+  .col-1 {
+    width: 40%;
+  }
+
+  .col-2 {
+    width: 70%;
+  }
+
+  .details > #newbutton {
+    width: 30%;
+  }
+
+  h2 {
+    text-align: left;
+  }
+}
+
+/* =========================== */
+
+@media (min-width: 960px) {
+  .games-wrapper {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* .productpage {
+  margin: 0 1em;
+}
+
+.productpage-top {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 40px 20px;
+}
+
+.productpage-top,
+.specs {
+  background-color: #f8f8f8;
+  border: 2px solid lightgrey;
+  border-radius: 7px;
+}
+
+@media (min-width: 600px) {
+  .productpage-top {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .top-game {
+    max-width: 450px;
+    padding-top: 1em;
+  }
+}
+
+.top-game {
+  margin: 1em auto 0;
+}
+
+.productpage-top h1 {
+  padding: 30px 20px 0px 0px;
+  margin-top: 0;
+}
+
+/* Middle part of the page */
+/*
+
+.productpage-middle {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.specs {
+  padding: 1em;
+  margin: 1em;
+}
+
+@media (min-width: 600px) {
+  .productpage-middle {
+    flex-direction: row;
+    gap: 2em;
+  }
+}
+
+/* Image Carousel */
+/*
+
+.img-carousel {
+  display: flex;
+  max-width: 500px;
+  background: #f8f8f8;
+}
+
+@media (min-width: 600px) {
+  .img-carousel {
+    max-width: 900px;
+  }
+}
+
+figure {
+  margin: 0px;
+  flex: 1;
+  overflow: hidden;
+  transition: 1s all;
+  opacity: 0.5;
+}
+
+figure p,
+label {
+  text-align: center;
+}
+
+.selected-img {
+  flex: 5;
+  opacity: 1;
+}
+
+.img-txt {
+  display: none;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1em;
+}
+@media (min-width: 600px) {
+  #carousel-img {
+    height: 400px;
+  }
+}
+figure:hover {
+  cursor: pointer;
+}
+
+/* Bottom part of the page SIMILAR GAMES */
+/*
+h2 {
+  text-align: center;
+}
+
+.games-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.game-item {
+  position: relative;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+/* =======================
+     Media Queries 
+==========================*/
+/*
+@media (min-width: 750px) {
+  .games-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* =========================== */
+/*
+@media (min-width: 960px) {
+  .games-wrapper {
+    grid-template-columns: repeat(5, 1fr);
+  }
+} */
