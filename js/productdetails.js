@@ -1,3 +1,5 @@
+document.title = "Game Details Page";
+
 const detailsContainer = document.querySelector(".details");
 
 const queryString = document.location.search;
