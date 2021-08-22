@@ -1,7 +1,7 @@
 document.title = "Game Details Page";
 
 const detailsContainer = document.querySelector(".details");
-
+detailsContainer.innerHTML = "";
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");

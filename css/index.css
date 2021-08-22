@@ -19,7 +19,7 @@ p {
 }
 
 /* Left Column Home Page */
-.productfromwprestapi {
+.productfromrestapi {
   display: grid;
 }
 
@@ -52,6 +52,18 @@ h3 {
 ==========================*/
 
 /* =========================== */
+
+@media (min-width: 600px) {
+  .productfromrestapi {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 750px) {
+  .productfromrestapi {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 @media (min-width: 1200px) {
   .featured h1,
