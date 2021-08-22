@@ -27,6 +27,6 @@ function createHTML(product) {
     <div class="details">
     <div class="col-1">
     <img id="details-img" src="${product.images[0].src}"/></div><div class="col-2"><h2>${product.name}</h2>${product.description}
-    <div class="product-price col-2">Price: ${product.prices.regular_price},-</div>
+    <div class="product-price-details col-2">Price: ${product.prices.regular_price},-</div>
     <button id="newbutton" class="add-to-cart-btn" data-product="${product.id}">Add to cart</button><hr /><h3>Specifications and Requirements:</h3>${product.short_description}</div>`;
 }

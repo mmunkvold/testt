@@ -34,8 +34,8 @@ async function getProducts(url) {
       //console.log(event.target.dataset.product);
       console.log("clicked hohi");
 
-      //const itemToAdd = productArray.find((item) => item.id === event.target.dataset.product);
-      //console.log(itemToAdd); //I NEED TO CHANGE THIS, BUT CANT FIGURE OUT TO WHAT
+      const itemToAdd = productArray.find((item) => item.id === event.target.dataset.product);
+      console.log(itemToAdd); //I NEED TO CHANGE THIS, BUT CANT FIGURE OUT TO WHAT
       //cartArray.push(itemToAdd);
       cartArray.push(event.target.dataset.product.id);
       //console.log(cartArray);
